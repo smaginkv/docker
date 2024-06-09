@@ -1,0 +1,5 @@
+sudo docker build -t postgresql-partman
+
+
+docker tag postgresql-partman smaginkv/postgresql-partman:15.7-alpine
+docker push smaginkv/postgresql-partman:15.7-alpine
